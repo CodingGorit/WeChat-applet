@@ -1,0 +1,5 @@
+<view>第一条微博</view>
+<view wx:for="{{weibos}}" wx:key='weibos'>
+  {{item}}
+</view>
+<button type='primary' bind:tap='writeweibo'>发微博</button>
