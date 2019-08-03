@@ -1,0 +1,2 @@
+<wxs src="tools.wxs" module="tools" />
+<view>{{tools.timeFormat(time)}}</view>
