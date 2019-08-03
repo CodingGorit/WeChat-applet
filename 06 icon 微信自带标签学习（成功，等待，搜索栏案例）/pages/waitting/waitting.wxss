@@ -1,0 +1,9 @@
+/* pages/waitting/waitting.wxss */
+.tips{
+  margin-top: 20rpx;
+}
+
+.waiting-btn{
+  margin-top: 40rpx;
+  width: 100%;  
+}

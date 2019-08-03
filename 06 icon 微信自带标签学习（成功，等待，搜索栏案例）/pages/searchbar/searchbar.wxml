@@ -1,0 +1,9 @@
+<view class='top-group'>
+  <view class='search-group'>
+    <icon type='search' class='search-icon' size='20px'></icon>
+    <input class='search-input' placeholder-class="placeholder-input" placeholder="请输入关键字" value="{{value}}"></input>
+    <icon type='clear' class='clear-icon' size='20px' bind:tap="onClearEvent"></icon>
+  </view>
+</view>
+
+<video src="https://v.qq.com/x/page/c0527hju8qa.html"></video>

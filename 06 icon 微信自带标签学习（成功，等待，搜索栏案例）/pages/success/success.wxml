@@ -1,0 +1,6 @@
+<!--pages/success/success.wxml-->
+<view class='container'>
+  <icon type='success' size='100'></icon>
+  <view class='tips'>操作成功</view>
+  <button type='primary' class='finish-btn'>完成</button>
+</view>
