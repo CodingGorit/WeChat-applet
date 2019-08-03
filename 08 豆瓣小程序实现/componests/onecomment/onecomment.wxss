@@ -1,0 +1,47 @@
+.comment-group{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40rpx;
+}
+
+.comment-group .left-comment{
+  width: 70rpx;
+  /* 与右边有间距 */
+  margin-right: 20rpx; 
+}
+
+.left-comment .avatar{
+  width: 70rpx;
+  height: 70rpx;
+  /* margin-left: 20rpx; */
+  border-radius: 50%;
+}
+
+.comment-group .right-comment{
+  flex: 1;
+}
+
+.right-comment .username-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.username-rate .username{
+  font-size: 36rpx;
+  /* 和星星有间距 */
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+}
+
+.release-time{
+  color: #b3b3b3;
+  font-size: 32rpx;
+  margin-top: 10rpx;
+}
+
+.content{
+  font-size: 32rpx;
+  color: #353535;
+  margin-top: 10rpx;
+}

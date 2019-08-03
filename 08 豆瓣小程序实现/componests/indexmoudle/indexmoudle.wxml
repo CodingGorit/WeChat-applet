@@ -1,0 +1,10 @@
+<view class='module-group'>
+  <view class='module-top'>
+    <view class='module-title'>{{title}}</view>
+    <navigator class='module-more' url="{{moreurl}}">更多</navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x ="{{true}}">
+    <itemview wx:for="{{items}}" wx:key="{{item.title}}" item="{{item}}" itemurl="/pages/detail/detail?type={{type}}&id={{item.id}}"></itemview>
+    
+  </scroll-view>
+</view>

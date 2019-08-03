@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/comment",        
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#41be57",
+    "navigationBarTitleText": "豆瓣评分",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

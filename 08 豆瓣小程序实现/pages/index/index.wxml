@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<searchbar isnavigator="{{true}}"></searchbar>
+<!-- 电影 -->
+<indexmoudle title='电影' items='{{movies}}' moreurl="/pages/list/list?type=movie" type='movie'></indexmoudle>
+
+<!-- 电视剧 -->
+<indexmoudle title='电视剧' items='{{tvs}}' moreurl="/pages/list/list?type=tv" type='tv'></indexmoudle>
+
+<!-- 综艺 -->
+<indexmoudle title='综艺' items='{{shows}}' moreurl="/pages/list/list?type=show" type='show'></indexmoudle>

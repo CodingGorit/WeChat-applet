@@ -1,0 +1,34 @@
+ .item-navigator{
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+/* .item-navigator:last-of-type{ */
+  /* 和更多对齐 */
+  /* margin-top: 0; */
+/* } */
+
+.item-navigator .item-group{
+  width: 100%;
+}
+
+.item-group .thumbnail-group{
+  width: 100%;
+  height: 300rpx;
+}
+
+.thumbnail-group .thumbnail{
+  width: 100%;
+  height: 100%;
+}
+
+.item-group .item-title{
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  /* 文本溢出，把文字变成。。。 */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}

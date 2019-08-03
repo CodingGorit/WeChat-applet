@@ -1,0 +1,13 @@
+<view class='comment-group'>
+  <view class='left-comment'>
+    <image class="avatar" src='{{item.user.avatar}}'></image>
+  </view>
+  <view class='right-comment'>
+    <view class='username-rate'>
+      <text class='username'>{{item.user.name}}</text>
+      <stars rate='{{item.rating.value*2}}' starsize='30' istext="{{false}}"></stars>
+    </view>
+    <view class='release-time'>{{item.create_time}}</view>
+    <view class='content'>{{item.comment}}</view>
+  </view>
+</view>

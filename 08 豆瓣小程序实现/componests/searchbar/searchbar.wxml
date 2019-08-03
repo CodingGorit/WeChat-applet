@@ -1,0 +1,7 @@
+<!--componests/searchbar/searchbar.wxml-->
+<view class='searchbar'>
+  <navigator wx:if="{{isnavigator}}" url='/pages/search/search' class='search-navigator'></navigator>
+  <view wx:else class='search-input-group'>
+    <input class='search-input' placeholder="搜一搜" bindinput="onInputEvent"></input>
+  </view>
+</view>

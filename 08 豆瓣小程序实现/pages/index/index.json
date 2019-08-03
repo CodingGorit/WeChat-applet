@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchbar":"/componests/searchbar/searchbar",
+    "stars":"/componests/stars/stars",
+    "indexmoudle":"/componests/indexmoudle/indexmoudle" 
+  }
+}
