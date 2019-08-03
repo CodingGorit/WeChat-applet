@@ -1,0 +1,90 @@
+<!-- edited by gorit
+date ：2019年7月11日19:35:31 
+微信小程序 之模拟支付宝 布局 -->
+<!-- 
+小程序 主要分为三个部分
+1、为搜索框，和其背景加上另外两个图标
+2、四个大菜单，分别是扫一扫，付钱、收钱、卡包
+3、为支付宝的主要功能区，一共有12个小图标组成 -->
+<view class='container'>
+  <view class='blue-group'>
+    <view class='top-group'>
+      <view class='search-group'>
+        <input class='search-input' placeholder-class='placeholder-input' placeholder='搜索'></input>
+      </view>
+      <view class='more-group'>
+        <image src='images/01.png'></image>
+         <image src='images/02.png'></image>
+      </view>
+    </view>
+    <view class='main-menu-group'>
+    <!-- 四个菜单入口存放 -->
+      <view class='main-menu'>
+        <image src='images/1.png'></image>
+        <text>扫一扫</text>
+      </view>
+         <view class='main-menu'>
+        <image src='images/2.png'></image>
+        <text>付钱</text>
+      </view>
+         <view class='main-menu'>
+        <image src='images/3.png'></image>
+        <text>收钱</text>
+      </view>
+         <view class='main-menu'>
+        <image src='images/4.png'></image>
+        <text>卡包</text>
+      </view>
+    </view>
+  </view>
+  <view class='white-group'>
+    <view class='menu-group'>
+      <image src='images/5.png'></image>
+      <text>转账</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/6.png'></image>
+      <text>信用卡还款</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/7.png'></image>
+      <text>充值中心</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/8.png'></image>
+      <text>余额宝</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/9.png'></image>
+      <text>我的快递</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/10.png'></image>
+      <text>滴滴出行</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/11.png'></image>
+      <text>红包</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/12.png'></image>
+      <text>芝麻信用</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/13.png'></image>
+      <text>交通出行</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/14.png'></image>
+      <text>蚂蚁森林</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/15.png'></image>
+      <text>安全备忘</text>
+    </view>
+    <view class='menu-group'>
+      <image src='images/16.png'></image>
+      <text>更多</text>
+    </view>
+  </view>
+</view>

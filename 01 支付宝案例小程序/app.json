@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1e82d2",
+    "navigationBarTitleText": "支付宝",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,111 @@
+/**index.wxss**/
+.blue-group{
+  background: #1e82d2;
+  padding: 20rpx;
+}
+
+/* 搜索栏布局 
+  使用flex 布局，使两边保留一定的宽度
+*/
+.blue-group .top-group{
+  height: 58rpx;
+  width: 100%;
+  display: flex;
+}
+
+/* 搜索框设置 flex布局，允许自适应变化 */
+.top-group .search-group{
+  flex: 1;
+  display: flex;
+}
+
+/* 输入框的设置 */
+.top-group .search-group .search-input{
+  flex: 1;
+  background: white;
+  border-radius:  4px;
+  padding: 0 10rpx;
+  /* 设置左右为0 上下间距为 10px */
+  font-size: 24rpx;
+}
+/* 设置搜索框字体颜色 */
+.top-group .search-group .placeholder-input{
+  color: black;
+}
+
+/* 搜索框长度自适应 */
+.top-group .more-group{
+  flex-basis: 180rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* 图片大小设置 */
+.top-group .more-group image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+
+/* 第二部分：四个菜单的布局 */
+
+.blue-group .main-menu-group{
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.main-menu-group .main-menu{
+  width: 100rpx;
+  height: 120rpx;
+  /* 使文字能够在下方居中 */
+  text-align: center;
+}
+
+/* 四个菜单图的大小保持一致 */
+.main-menu-group .main-menu image{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.main-menu-group .main-menu text{
+  font-size: 32rpx;
+  color: white;
+}
+
+/* 第三部分：白色背景 12个小图标
+  分析：flex 布局，进行平均分布，还有换行操作 需要用到 wrap
+ */
+.white-group{
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  /* 换行 */
+  flex-wrap: wrap;
+  /* 配置顶部间距 */
+  padding-top: 20rpx;
+}
+
+.white-group .menu-group{
+  /* 小图标宽度增加 */
+  width: 180rpx;
+  height: 100rpx;
+  display: flex;
+  /* 纵向布局 */
+  flex-direction: column;
+  justify-content: space-between;
+  /* 设置文字间距 */
+  align-items: center;
+  /* 设置底部间距 */
+  margin-bottom: 40rpx;
+}
+
+/* 小选项的高度和宽度 */
+.white-group .menu-group image{
+  width: 54rpx;
+  height: 50rpx;
+}
+
+/* 文字大小以及修改 其布局方向 */
+.white-group .menu-group text{
+  font-size: 32rpx;
+}
