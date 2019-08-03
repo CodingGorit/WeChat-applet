@@ -1,0 +1,11 @@
+<!--pages/chat/chat.wxml-->
+<view class='listview'>
+  <view class='itemview'>
+    <movable-area class='movablearea' style='width:{{(windowWidth-100)*2}}rpx'>
+      <movable-view class='movableview' style='width:{{windowWidth*2}}rpx' direction='horizontal' bindtouchstart="onTouchStart" bindtouchend="onTouchEnd" bindchange='onChangeEvent' x="{{x*2}}rpx">
+        你收到了一個紅包
+      </movable-view>
+    </movable-area>
+    <view class='deleteview'>刪除</view>
+  </view>
+</view>
