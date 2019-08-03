@@ -1,0 +1,13 @@
+<view class='segment-group'>
+  <view class='segment-header'>
+    <block wx:for='{{items}}' wx:key="{{item}}">
+      <view class="segment-item active" wx:if="{{currentIndex === index}}" bind:tap="onItemTapEvent" data-index="{{index}}">{{item}}</view>
+      <view class='segment-item' wx:else  bind:tap="onItemTapEvent" data-index="{{index}}">{{item}}</view>
+    </block>
+  </view>
+  <view class='segment-body'>
+    <block wx:for="{{items}}" wx:key='{{items}}'>
+      <slot name='{{index}}' wx:if="{{currentIndex === index}}"></slot>
+    </block>
+  </view>
+</view>

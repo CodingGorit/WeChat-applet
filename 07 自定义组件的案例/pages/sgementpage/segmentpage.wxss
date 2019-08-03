@@ -1,0 +1,17 @@
+/* pages/sgementpage/segmentpage.wxss */
+.segment-page{
+  width: 100%;
+  height: 400px;
+}
+
+.newsest-page{
+  background: greenyellow;
+}
+
+.focous-page{
+  background: lightblue;
+}
+
+.city-page{
+  background: blanchedalmond;
+}

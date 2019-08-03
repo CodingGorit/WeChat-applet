@@ -1,0 +1,5 @@
+<segment items="{{items}}" defaultindex='{{currentindex}}' binditemchanged='onSegmentItemChanged'>
+  <view slot="0" class='segment-page newsest-page'>最新的界面</view>
+  <view slot="1" class='segment-page focous-page' >关注的界面</view>
+  <view slot="2" class='segment-page city-page' >同城的界面</view>
+</segment>
