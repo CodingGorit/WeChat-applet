@@ -1,0 +1,51 @@
+.scroll-view{
+  width: 100%;
+  height: 200px;
+  background: wheat;
+    /*设置二 防止换行 */
+  white-space: nowrap;
+}
+
+.id{
+  /* 设置三  */
+  display: inline-block;
+
+  height: 100px;
+  width: 100px;
+}
+
+.by_red{
+  background: red;
+}
+
+.by_yellow{
+  background: yellow;
+}
+
+.by_green{
+  background: green;
+}
+
+.by_purple{
+  background: purple;
+}
+
+.by_grey{
+  background: grey;
+}
+
+.by_pink{
+  background: pink;
+}
+
+.scroll-view-y{
+  width: 100%;
+  height: 100px;
+  background: whitesmoke;
+  margin-top: 50px;
+}
+
+.id1{
+  height: 100px;
+  width: 100%;
+}

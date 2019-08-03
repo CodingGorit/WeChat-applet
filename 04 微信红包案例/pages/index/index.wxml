@@ -1,0 +1,16 @@
+<!-- 设置一在属性里 -->
+<scroll-view class='scroll-view' scroll-x="{{true}}" >
+  <view class='id by_red'>我是红色</view>
+  <view class='id by_yellow'>我是黄色</view>
+  <view class='id by_green'>我是绿色</view>
+  <view class='id by_purple'>我是紫色</view>
+  <view class='id by_pink'>我是粉色</view>
+  <view class='id by_grey'>我是灰色</view>
+</scroll-view>
+
+<scroll-view class='scroll-view-y' scroll-y="{{true}}" scroll-into-view='green'>
+  <view class='id1 by_red' >我是红色</view>
+  <view class='id1 by_yellow'>我是黄色</view>
+  <view class='id1 by_green' >我是绿色</view>
+  <view class='id1 by_grey' id='green'>我是灰色</view>
+</scroll-view>

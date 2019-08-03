@@ -1,0 +1,61 @@
+/* pages/redEnvlope/redEnvlope.wxss */
+.scroll-view{
+  height: 100px;
+  width: 100%;
+  background: grey;
+}
+ 
+.circle-outter{
+  width: 100%;
+  height: 300rpx;
+  background: #e4e4e4;
+  position: relative;
+}
+
+
+/* 弧度容器设置 */
+
+.circle-outter .circle-inner{
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+    /* 与 inner 保持一致 */
+   /* background: #ffff; */
+}
+
+.circle-inner .circle{
+  background: #dd4b39;
+  /* 设置一个圆形 */
+  border-radius: 50%;
+  /* 绝对定位 */
+  position: absolute;
+  bottom: 0;
+}
+
+/* 对图标的位置进行 居中处理 */
+.user-group{
+  position: absolute;
+  width: 200rpx;
+  /* background: blue;  颜色最后删掉*/
+  font-size: 20rpx;
+  /* 居中显示 */
+  left: 50%;
+  right: 50%;
+  /* 中间移动一半,往左边移动是负值 */
+  margin-left: -100rpx;
+  /* 距离底部20个像素 */
+  bottom: 20rpx;
+  text-align: center;
+}
+
+.user-group .avatar{
+  width: 100rpx;
+  height: 100rpx;
+  /* 设置边框 */
+  border: 1px solid #E88E34;
+}
+
+/* 使页面可以进行滑动 */
+.placeholder{
+  height: 1000px;
+}

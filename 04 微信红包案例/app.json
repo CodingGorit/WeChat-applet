@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/redEnvlope/redEnvlope",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dd4b39",
+    "navigationBarTitleText": "微信红包",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

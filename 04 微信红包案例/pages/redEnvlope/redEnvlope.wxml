@@ -1,0 +1,15 @@
+<!--pages/redEnvlope/redEnvlope.wxml-->
+
+<scroll-view class="scroll-view" scroll-y="{{true}}" style='height:{{windowHeight}}px' bindscroll="scrollEvent"> 
+  <view class='circle-outter'>
+    <view class='circle-inner'>
+      <view class='circle' style='width:{{radius*4}}rpx;height:{{radius*2*2}}rpx;left:{{left*2}}rpx'></view>
+    </view>
+    <view class='user-group'>
+      <image src='../image/1.jpg' class='avatar'></image>
+      <view class='username'>Gorit的红包</view>
+    </view>
+    <!-- placeholder 用于占位 -->
+    <view class='placeholder'></view>
+  </view>
+</scroll-view>
